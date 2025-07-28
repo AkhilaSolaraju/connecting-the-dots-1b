@@ -8,7 +8,7 @@ This project is a solution for Round 1B of the Persona-Driven Document Intellige
 ## Example Use Case
 - Persona: Investment Analyst  
 - Job to be Done: Analyze revenue trends, R&D investments, and market positioning strategies
-- 
+  
 ## Folder Structure
 ```
 connecting-the-dots-1b/
@@ -36,10 +36,16 @@ Place at least three PDF files into the input_pdfs/ folder. Each file should con
 ### 3. Run the Script
    
 You can run the system using the command line:
+
+
 python main.py
 Or, if using a Jupyter notebook:
 
+
+
 !python main.py
+
+
 You will be prompted to enter:
 Persona:
 Job to be Done:
@@ -49,5 +55,5 @@ The output will be saved to output.json.
 To build and run the solution in a Docker container:
 
 docker build -t doc-intelligence .
+
 docker run -v $(pwd)/input_pdfs:/app/input_pdfs doc-intelligence
-This will mount the input folder and run the containerized app.
