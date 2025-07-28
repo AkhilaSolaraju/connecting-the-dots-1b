@@ -13,23 +13,24 @@ This project is a solution for Round 1B of the Persona-Driven Document Intellige
 ## Folder Structure
 
 connecting-the-dots-1b/
-├── main.py # Main execution script
-├── requirements.txt # Python dependencies
-├── Dockerfile # Docker container configuration
-├── approach_explanation.md # Description of solution approach
-├── input_pdfs/ # Folder containing input PDF files
-└── output.json # Generated output file
+├── main.py
+├── requirements.txt
+├── Dockerfile 
+├── approach_explanation.md
+├── input_pdfs/ 
+└── output.json 
 
 ## Setup Instructions
-
 ### 1. Install Dependencies
 
 Run the following command to install the required Python libraries:
 pip install -r requirements.txt
 2. Add PDF Files
+
 Place at least three PDF files into the input_pdfs/ folder. Each file should contain 10 to 30 pages of mostly textual content.
 
 3. Run the Script
+   
 You can run the system using the command line:
 python main.py
 Or, if using a Jupyter notebook:
