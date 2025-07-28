@@ -10,15 +10,19 @@ This project is a solution for Round 1B of the Persona-Driven Document Intellige
 - Persona: Investment Analyst  
 - Job to be Done: Analyze revenue trends, R&D investments, and market positioning strategies
 
-## Folder Structure
-
+```
 connecting-the-dots-1b/
-├── main.py
-├── requirements.txt
-├── Dockerfile 
-├── approach_explanation.md
-├── input_pdfs/ 
-└── output.json 
+├── main.py                   # Entry point of the pipeline
+├── requirements.txt          # Python dependencies
+├── Dockerfile                # Containerization script
+├── approach_explanation.md  # Description of approach used
+├── input_pdfs/               # Folder containing input PDF files
+│   ├── file1.pdf
+│   ├── file2.pdf
+│   └── file3.pdf
+└── output.json               # Final extracted and ranked results
+```
+
 
 ## Setup Instructions
 ### 1. Install Dependencies
